@@ -7,7 +7,7 @@
  let bobCounter=0;
  let counterB=0;
  
- const comparationPoints =(aliceArray,bobArray)=>{  
+ const comparationPoints =(aliceArray,bobArray)=>{  // function to compare two arrays
 		 
 		 for(let arrayAux of aliceArray){
 				 
@@ -23,6 +23,6 @@
 		 return [aliceCounter,bobCounter];
  }
  
- let resultOfComparation = comparationPoints(aliceArray,bobArray);
- return(resultOfComparation);
+ let resultOfComparation = comparationPoints(aliceArray,bobArray); //call the function
+ return(resultOfComparation); // the result
  
