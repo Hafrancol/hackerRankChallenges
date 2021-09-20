@@ -1,8 +1,11 @@
 # hackerRankChallenges
 
-Here we will find the solution about challenges in Hacker-Rank.
-As Algorithms, LinuxShell, SQL ... 
-Initially the language programing will be javascript, Typescript.
+Here we will find the solution about challenges in Hacker-Rank, as:
+- Algorithms
+- LinuxShell
+- SQL
+
+Initially the language programing will be javascript, Typescript, bash script, SQL
 
 ![Javascript logo](./assets/js.png "javascript logo")
 ![Javascript logo](./assets/ts.png "javascript logo")
