@@ -5,7 +5,11 @@ Here we will find the solution about challenges in Hacker-Rank, as:
 - LinuxShell
 - SQL
 
-Initially the language programing will be javascript, Typescript, bash script, SQL
+Initially the language programing will be:
+- javascript
+- Typescript
+- Bash script
+- SQL
 
 ![Javascript logo](./assets/js.png "javascript logo")
 ![Javascript logo](./assets/ts.png "javascript logo")
