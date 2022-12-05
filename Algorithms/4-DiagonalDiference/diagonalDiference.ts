@@ -6,7 +6,12 @@
  */
 
 function diagonalDifference(arr: number[][]): number {
-	// Write your code here
+	// Write your code here 
+	//arr = [ [1,2,3], [4,5,6], [7,8,9] ]
+	// 1 2 3
+	// 4 5 6
+	// 7 8 9
+
 	let d1:number;
 	let d2:number;
 	
