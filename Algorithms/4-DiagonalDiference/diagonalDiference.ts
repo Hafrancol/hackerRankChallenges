@@ -6,35 +6,14 @@
  */
 
 function diagonalDifference(arr: number[][]): number {
-	// Write your code here 
-	//arr = [ [1,2,3], [4,5,6], [7,8,9] ]
-	// 1 2 3
-	// 4 5 6
-	// 7 8 9
-
-	let d1:number;
-	let d2:number;
-	
-	
-	const diagonal=(matrix:number[][],iInit:number):number=>{
-			let sum:number=0;
-			let i:number=iInit;
-			if(i===0){
-					matrix.forEach((value:number[])=>{
-					sum+=value[i]; 
-					i++;
-			});
-			}else{
-					matrix.forEach((value:number[])=>{
-					sum+=value[i]; 
-					i--;
-			});
-			}
-			return sum;
-	}
-	
-	d1=diagonal(arr,0);
-	d2=diagonal(arr,arr.length - 1)
-	return Math.abs(d1-d2)
-
+    let firstDiagonal: number = 0;
+    let secondDiagonal: number = 0;
+    
+    arr.forEach((row: number[], index: number) => {
+        firstDiagonal += row[index];
+        secondDiagonal += row[row.length - 1 - index];
+    })
+    
+    return Math.abs(firstDiagonal - secondDiagonal);
+        
 }
